@@ -22,3 +22,5 @@ master(ローカルブランチ)からorigin(Hubのブランチ)にpush
 ・ブランチ名の変更コマンド・・・
 $git branch -M "変えたい名前"
 
+1
+
