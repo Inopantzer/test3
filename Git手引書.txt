@@ -9,18 +9,16 @@ master....ローカルのブランチの名前
 
 ②$ git remote add origin <GitHUbのURL>(ディレクトリ作った初回のみ、originは変数のようなものと覚える)
 
-③$ git pull origin main(②で設定したように、originはHubのURLである。)
+③$ git pull origin master(②で設定したように、originはHubのURLである。)
 に対してoriginからpull
 
 ④$ git add (ファイル名か、"."で変更されたすべてのファイル)
 
 ⑤$ git commit -m "<コメント>"
 
-⑥$ git push origin(②で設定したように、originはHubのURLである。)　master(ローカルのブランチ)
-master(ローカルブランチ)からorigin(Hubのブランチ)にpush
+⑥$ git push origin(②で設定したように、originはHubのURLである。)　main(URLのブランチの名前)
+origin(Hubのブランチ)のmainブランチにpush
 
 ・ブランチ名の変更コマンド・・・
 $git branch -M "変えたい名前"
-
-1
 
