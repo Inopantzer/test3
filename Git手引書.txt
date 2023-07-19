@@ -1,0 +1,24 @@
+git専用フォルダを作る
+gitbashを開いてディレクトリをgit専用フォルダに移動(コマンドは"cd <dir>")
+
+
+⓪$ git config --global init.defaultBranch master
+master....ローカルのブランチの名前
+
+①$ git init(ディレクトリ作った初回のみ)
+
+②$ git remote add origin <GitHUbのURL>(ディレクトリ作った初回のみ、originは変数のようなものと覚える)
+
+③$ git pull origin main(②で設定したように、originはHubのURLである。)
+に対してoriginからpull
+
+④$ git add (ファイル名か、"."で変更されたすべてのファイル)
+
+⑤$ git commit -m "<コメント>"
+
+⑥$ git push origin(②で設定したように、originはHubのURLである。)　master(ローカルのブランチ)
+master(ローカルブランチ)からorigin(Hubのブランチ)にpush
+
+・ブランチ名の変更コマンド・・・
+$git branch -M "変えたい名前"
+
